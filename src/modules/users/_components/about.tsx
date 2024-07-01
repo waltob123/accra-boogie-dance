@@ -9,28 +9,39 @@ const About = () => {
 
 			<div className="w-full p-4 md:p-8 my-10 rounded-3xl shadow-lg bg-black/50 bg-clip-padding backdrop-filter backdrop-blur-[1px] bg-opacity-0  space-y-3 md:space-y-0">
 				<h3>
-					Welcome to the official site to audition for Accra’s Boogie King..
+					Accra’s Boogie is an electrifying dance competition that grows bigger
+					and better every year. Celebrated as the premier dance event in Ghana,
+					it was honored with the title of Best Dance Event in 2023 by the Ghana
+					Dance Awards.
 				</h3>
 				<p className="py-4">
-					We enjoy all styles of dance, whether you are an amazing ballet, or
-					can do the old skool pop & lock. We want to be shocked and amazed by
-					what you can do in 90 seconds!
+					Dance groups from all over Accra showcase their talent across various
+					dance genres, vying for the coveted Boogie King Trophy. This event not
+					only highlights the rich dance culture of Accra but also fosters a
+					spirit of healthy competition and community.
 				</p>
-				<p> So take a chance and show us your talent.</p>
 
-				<h2 className="pt-6 pb-2 text-2xl">Audition Online</h2>
+				<h2 className="pt-6  text-xl font-semibold">Competition</h2>
 
 				<p>
-					It is now easier than ever to audition by sending us a video of your
-					act.
+					The competition is structured into four thrilling rounds, with
+					eliminations in each round, intensifying the excitement and stakes.
 				</p>
 				<p className="py-4">
-					You can upload a video, send us a link to your video on YouTube or use
-					your webcam to directly record a video on our site!
+					This season introduces a new twist: audience participation. Voting
+					accounts for 30% of the final score, while the judges' expertise
+					contributes the remaining 70%. This blend ensures a balanced and
+					engaging competition.
 				</p>
+
+				<h2 className="pt-6  text-xl font-semibold">Judges</h2>
+
 				<p>
-					Seriously it cannot get any more simple than that! You have no
-					excuse.Submit a video audition for Accra’s Boogie King!
+					Each year, a panel of esteemed judges is selected, comprising seasoned
+					celebrities and respected figures from various fields. These
+					well-known personalities from Accra bring their unique perspectives
+					and expertise to the judging process, ensuring a fair and dynamic
+					evaluation of the contestants’ performances.
 				</p>
 
 				<h5 className="text-lg pt-7 pb-2">Watch Past Seasons of ABK </h5>

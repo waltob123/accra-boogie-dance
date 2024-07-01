@@ -20,23 +20,23 @@ export default FrequentlyAskedQuestions;
 
 const faqQuestion = [
 	{
-		header:
-			'Have you received the video I sent? When can I expect to receive feedback on it?',
-		desc: [
-			'Because of the high volume of submissions, we regret to inform you that we are unable to confirm receipt of individual videos submitted to the program. However, please be assured that each video received will be reviewed. If you are selected to participate in the program, a representative will contact you to arrange your appearance for the next round of the competition. Typically, this communication will occur approximately three days after the closing of auditions.',
-		],
+		header: 'Where is Accra Boogie King being held?',
+		desc: ['First Love Center'],
 	},
 	{
-		header: 'Can I use the same video from last year?',
-		desc: [
-			'You need to resubmit your video each season to be eligible for consideration on the show.',
-		],
+		header: 'When is ABK 2024?',
+		desc: ['28th July 2024'],
 	},
 	{
-		header: 'I keep having issues whilst trying to upload my video.',
-		desc: [
-			'Please note that video uploads are restricted to 50MB per video. Prior to uploading, kindly ensure that the file size meets this requirement. Accepted formats include popular video formats such as MP4, MOV, or AVI. Please verify that your videos are saved in one of these compatible formats.',
-			'While any browser should suffice for uploading, in case you encounter any browser-related challenges, we recommend utilizing Google Chrome for optimal performance.',
-		],
+		header: 'What edition is ABK 2024?',
+		desc: ['The 6th Edition'],
+	},
+	{
+		header: 'How can I participate?',
+		desc: ['Register for audition'],
+	},
+	{
+		header: 'How can I attend?',
+		desc: ['Free Entry'],
 	},
 ];

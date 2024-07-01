@@ -88,7 +88,7 @@ const Navbar = () => {
 							<Icon icon="ant-design:facebook-outlined" />
 						</a>
 					</div> */}
-					<button onClick={() => navigate('/login')}>Login</button>
+					{/* <button onClick={() => navigate('/login')}>Login</button> */}
 
 					<AnimatePresence>
 						{toggle && (
