@@ -10,9 +10,12 @@ import {
 } from './embla_carousel_btn';
 import { cn } from '@/lib/utils';
 import { Select, SelectItem } from '@nextui-org/react';
+import { Button } from '@/components/moving-border';
+import { useNavigate } from 'react-router-dom';
 
 const HeroComponent = () => {
 	const [value, setValue] = useState('ABK22');
+	const navigate = useNavigate();
 
 	const OPTIONS: EmblaOptionsType = { loop: true };
 	const SLIDES = Array.from(imageArray[value]);
@@ -41,9 +44,17 @@ const HeroComponent = () => {
 	} = usePrevNextButtons(emblaApi, onNavButtonClick);
 
 	return (
-		<section id="home" className="relative  md:p-12 p-6">
+		<section id="home" className="relative md:p-12 p-6">
 			<div className="flex flex-col justify-center items-center">
-				<img src="/text.svg" alt="" className="w-52 mt-5" />
+				<img src="/text.svg" alt="" className="w-52 mt-5 mb-3" />
+
+				<Button
+					onClick={() => navigate('/vote')}
+					borderRadius="1.75rem"
+					className="font-semibold text-black text-lg hover:shadow-none">
+					Vote Now
+				</Button>
+
 				<div className="flex flex-col items-center justify-center w-full max-w-6xl mx-auto mt-5">
 					<Select
 						variant={'faded'}
