@@ -4,8 +4,7 @@ const VotePage = () => {
 			{/* <Navbar /> */}
 			<iframe
 				src="https://docs.google.com/forms/d/e/1FAIpQLSdcyt5wC2kVUut0YnGFxHUhnfvAvOw8J4L-dUPPFNflJ1wN5w/viewform?embedded=true"
-				width="640"
-				height="750"
+				className="w-[100%] h-[100%]"
 				// frameborder="0"
 				// marginheight="0"
 			>
